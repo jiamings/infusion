@@ -20,3 +20,7 @@ Occasionally the loss will rise suddenly, and the model will generate artifacts.
 The cause of the problem is yet unknown.
 
 Also, the generator tends to generate `8` that look like `1`.
+
+### Problems
+Since the std is small during training, can we train a model without the std at all? 
+> The determinstic version of the model tries to answer the problem.
