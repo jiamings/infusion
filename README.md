@@ -19,4 +19,4 @@ The training is robust (in that not much tuning is required) but not very stable
 Occasionally the loss will rise suddenly, and the model will generate artifacts.
 The cause of the problem is yet unknown.
 
-Also, the generator tends to generate '8' that look like '1's.
+Also, the generator tends to generate `8` that look like `1`.
