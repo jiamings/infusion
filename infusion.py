@@ -76,7 +76,7 @@ class Diffusion(object):
         bx, by = mnist.train.next_batch(batch_size)
         if alpha > 0:
             print(np.where(by > 0)[1])
-        z = self.sess.run(self.z, feed_dict={self.x: bx, self.alpha: 0.05})
+        z = self.sess.run(self.z, feed_dict={self.x: bx, self.alpha: alpha})
         z = [np.reshape(zm, [zm.shape[0], 28, 28]) for zm in z]
         v = np.zeros([z[0].shape[0] * 28, len(z) * 28])
         for b in range(0, z[0].shape[0]):
