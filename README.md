@@ -5,7 +5,7 @@ Reproducing an experiment from the ICLR 2017 submission by Bordes et al. from MI
 Currently, only the MNIST experiments are available.
 
 ```[bash]
-> python infusion.py
+> python3 infusion.py -t d -s 15 --lr 1e-3 -a 0.01 -e 200
 ```
 
 would give you the following generation after 30 epochs of training.
